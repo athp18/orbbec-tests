@@ -1,0 +1,445 @@
+[07/14 11:29:56.217117][debug][1905671][Context.cpp:30] Context creating, work_dir=/Users/atharvp04/OrbbecSDK/examples/cpp/OrbbecTesting/build
+[07/14 11:29:56.217412][debug][1905671][Context.cpp:49] Config file version=1.1
+[07/14 11:29:56.217445][debug][1905671][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[07/14 11:29:56.217454][info][1905671][Context.cpp:68] Context created with config: default config!
+[07/14 11:29:56.217493][info][1905671][Context.cpp:73] Work directory=/Users/atharvp04/OrbbecSDK/examples/cpp/OrbbecTesting/build, SDK version=v1.10.8-20240604-d1671a341
+[07/14 11:29:56.217500][debug][1905671][DeviceManager.cpp:30] DeviceManager init ...
+[07/14 11:29:56.217504][info][1905671][MacPal.cpp:31] createObPal: create MacPal!
+[07/14 11:29:56.260962][debug][1905671][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[07/14 11:29:56.261906][debug][1905671][EnumeratorLibusb.cpp:322] queryDevicesInfo done!
+[07/14 11:29:56.261932][debug][1905671][UsbDeviceEnumerator.cpp:162] Current usb device port list:
+[07/14 11:29:56.261941][debug][1905671][UsbDeviceEnumerator.cpp:165]  - 0-2-1.0 | Orbbec Femto Bolt RGB Camera
+[07/14 11:29:56.261947][debug][1905671][UsbDeviceEnumerator.cpp:165]  - 0-2-1.2 | Orbbec Femto Bolt Depth Camera
+[07/14 11:29:56.261952][debug][1905671][UsbDeviceEnumerator.cpp:165]  - 0-2-1.4 | HID Interface
+[07/14 11:29:56.262009][info][1905671][MacPal.cpp:121] Create PollingDeviceWatcher!
+[07/14 11:29:56.262029][debug][1905671][UsbDeviceEnumerator.cpp:70] Found 1 device(s):
+[07/14 11:29:56.262036][debug][1905671][UsbDeviceEnumerator.cpp:73]   - Name: Femto Bolt, PID: 0x066B, SN/ID: CL8K14101JD, connection: USB3.1
+[07/14 11:29:56.262043][info][1905671][DeviceManager.cpp:15] Current found device(s): (1)
+[07/14 11:29:56.262051][info][1905671][DeviceManager.cpp:24] 	- Name: Femto Bolt, PID: 0x066b, SN/ID: CL8K14101JD, Connection: USB3.1
+[07/14 11:29:56.262058][debug][1905671][DeviceManager.cpp:52] DeviceManager construct done!
+[07/14 11:29:56.262304][debug][1905671][DeviceManager.cpp:109] DeviceManager  createDevice...
+[07/14 11:29:56.262316][debug][1905671][UsbDeviceEnumerator.cpp:288] UsbDeviceEnumerator createDevice...
+[07/14 11:29:56.262355][info][1905671][FemtoBoltUvcDevice.cpp:23] FemtoBoltUvcDevice init ...
+[07/14 11:29:56.262469][info][1905671][FemtoBoltUvcDevice.cpp:121] Create command start!
+[07/14 11:29:56.263165][warning][1905671][ObLibuvcDevicePort.cpp:51] uvc_open  path=0-2-1.2 already opened
+[07/14 11:29:56.263213][warning][1905671][ObLibuvcDevicePort.cpp:54] uvc_open  path=0-2-1.2 failed,return res:$-3
+[07/14 11:29:56.264075][debug][1905671][Context.cpp:81] Context destroying ...
+[07/14 11:29:56.264085][debug][1905671][DeviceManager.cpp:56] DeviceManager destroy ...
+[07/14 11:29:56.264090][debug][1905671][DeviceManager.cpp:64] DeviceManager Destructors done
+[07/14 11:29:56.264341][info][1905671][Context.cpp:84] Context destroyed
+[07/14 11:32:57.492154][debug][1912665][Context.cpp:30] Context creating, work_dir=/Users/atharvp04/OrbbecSDK/examples/cpp/OrbbecTesting/build
+[07/14 11:32:57.492643][debug][1912665][Context.cpp:49] Config file version=1.1
+[07/14 11:32:57.492674][debug][1912665][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[07/14 11:32:57.492681][info][1912665][Context.cpp:68] Context created with config: default config!
+[07/14 11:32:57.492714][info][1912665][Context.cpp:73] Work directory=/Users/atharvp04/OrbbecSDK/examples/cpp/OrbbecTesting/build, SDK version=v1.10.8-20240604-d1671a341
+[07/14 11:32:57.492721][debug][1912665][DeviceManager.cpp:30] DeviceManager init ...
+[07/14 11:32:57.492725][info][1912665][MacPal.cpp:31] createObPal: create MacPal!
+[07/14 11:32:57.495626][debug][1912665][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[07/14 11:32:57.496007][debug][1912665][EnumeratorLibusb.cpp:322] queryDevicesInfo done!
+[07/14 11:32:57.496015][debug][1912665][UsbDeviceEnumerator.cpp:162] Current usb device port list:
+[07/14 11:32:57.496020][debug][1912665][UsbDeviceEnumerator.cpp:165]  - 0-2-1.0 | Orbbec Femto Bolt RGB Camera
+[07/14 11:32:57.496054][debug][1912665][UsbDeviceEnumerator.cpp:165]  - 0-2-1.2 | Orbbec Femto Bolt Depth Camera
+[07/14 11:32:57.496058][debug][1912665][UsbDeviceEnumerator.cpp:165]  - 0-2-1.4 | HID Interface
+[07/14 11:32:57.496090][info][1912665][MacPal.cpp:121] Create PollingDeviceWatcher!
+[07/14 11:32:57.496100][debug][1912665][UsbDeviceEnumerator.cpp:70] Found 1 device(s):
+[07/14 11:32:57.496104][debug][1912665][UsbDeviceEnumerator.cpp:73]   - Name: Femto Bolt, PID: 0x066B, SN/ID: CL8K14101JD, connection: USB3.1
+[07/14 11:32:57.496108][info][1912665][DeviceManager.cpp:15] Current found device(s): (1)
+[07/14 11:32:57.496113][info][1912665][DeviceManager.cpp:24] 	- Name: Femto Bolt, PID: 0x066b, SN/ID: CL8K14101JD, Connection: USB3.1
+[07/14 11:32:57.496118][debug][1912665][DeviceManager.cpp:52] DeviceManager construct done!
+[07/14 11:32:57.496300][debug][1912665][DeviceManager.cpp:109] DeviceManager  createDevice...
+[07/14 11:32:57.496308][debug][1912665][UsbDeviceEnumerator.cpp:288] UsbDeviceEnumerator createDevice...
+[07/14 11:32:57.496328][info][1912665][FemtoBoltUvcDevice.cpp:23] FemtoBoltUvcDevice init ...
+[07/14 11:32:57.496405][info][1912665][FemtoBoltUvcDevice.cpp:121] Create command start!
+[07/14 11:32:57.499090][debug][1912665][ObLibuvcDevicePort.cpp:58] uvc_open success
+[07/14 11:32:57.499122][debug][1912665][VendorCommand.cpp:205] VendorCommand constructor 600002d4c0e8
+[07/14 11:32:57.501945][debug][1912665][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1000, dataLen: 164
+[07/14 11:32:57.503067][debug][1912665][HostProtocol.cpp:450] get property value success! propertyId=98, cur={intValue: 0, floatValue: 0}, max={intValue: 1, floatValue: 1.4013e-45}, min={intValue: 0, floatValue: 0},def={intValue: 0, floatValue: 0},step={intValue: 1, floatValue: 1.4013e-45}
+[07/14 11:32:57.503077][debug][1912665][PropertyAccessor.cpp:28] get property value success! propertyId: 98, value: {intValue: 0, floatValue: 0}
+[07/14 11:32:57.503420][debug][1912700][VendorCommand.cpp:429] get TimeStamp: tsp=354092, rtt=0
+[07/14 11:32:57.558954][debug][1912700][VendorCommand.cpp:429] get TimeStamp: tsp=354147, rtt=0
+[07/14 11:32:57.614525][debug][1912700][VendorCommand.cpp:429] get TimeStamp: tsp=354203, rtt=0
+[07/14 11:32:57.670222][debug][1912700][VendorCommand.cpp:429] get TimeStamp: tsp=354258, rtt=0
+[07/14 11:32:57.726006][debug][1912700][VendorCommand.cpp:429] get TimeStamp: tsp=354314, rtt=0
+[07/14 11:32:57.781349][debug][1912700][VendorCommand.cpp:429] get TimeStamp: tsp=354369, rtt=0
+[07/14 11:32:57.837271][debug][1912700][VendorCommand.cpp:429] get TimeStamp: tsp=354425, rtt=0
+[07/14 11:32:57.889933][debug][1912700][VendorCommand.cpp:429] get TimeStamp: tsp=354478, rtt=0
+[07/14 11:32:57.945853][debug][1912700][VendorCommand.cpp:429] get TimeStamp: tsp=354534, rtt=0
+[07/14 11:32:58.001739][debug][1912700][VendorCommand.cpp:429] get TimeStamp: tsp=354590, rtt=0
+[07/14 11:32:58.001991][debug][1912700][GlobalTimestampFitter.cpp:143] GlobalTimestampFitter update: coefficientA = 1000.2297329452169, constantB = 1720981623330234
+[07/14 11:32:58.002054][debug][1912665][GlobalTimestampFitter.cpp:27] GlobalTimestampFitter created: maxQueueSize_=10, refreshIntervalMsec_=8000
+[07/14 11:32:58.002967][debug][1912665][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1000, dataLen: 164
+[07/14 11:32:58.003012][info][1912665][AbstractDevice.cpp:116] 	- Firmware version: 1.0.9
+[07/14 11:32:58.003069][info][1912665][FemtoBoltUvcDevice.cpp:280] Create command done!
+[07/14 11:32:58.003097][info][1912665][FemtoBoltUvcDevice.cpp:401] init sensor map start!
+[07/14 11:32:58.003186][info][1912665][FemtoBoltUvcDevice.cpp:428] init sensor map done!
+[07/14 11:32:58.003471][info][1912665][FemtoBoltUvcDevice.cpp:284] Init depth process param start!
+[07/14 11:32:58.006416][debug][1912665][FemtoBoltAlgParamManager.cpp:43] Get align calibration camera params success! num=4
+[07/14 11:32:58.006563][debug][1912665][FemtoBoltAlgParamManager.cpp:47] - {
+depthDistortion: {k1: 9.77306, k2: 5.02446, k3: 0.194826, k4: 10.1039, k5: 8.30277, k6: 1.18891, p1: 7.22266e-05, p2: 4.47082e-06},
+depthIntrinsic: {cx: 514.002, cy: 519.568, fx: 505.585, fy: 505.605, width: 1024, height: 1024}, 
+rgbDistortion: {k1: 0.0702578, k2: -0.101962, k3: 0.0428269, k4: 0, k5: 0, k6: 0, p1: -0.000124789, p2: -0.000373641},
+rgbIntrinsic: {cx: 316.742, cy: 185.593, fx: 374.09, fy: 373.435, width: 640, height: 360}, 
+transform: {rot: [0.994274, 0.00400945, 0.00357911, -0.00436875, 0.994273, 0.106785, -0.00313046, -0.1068, 0.994276], trans: [-32.2565, -0.741224, 1.97471]}
+}
+[07/14 11:32:58.006809][debug][1912665][FemtoBoltAlgParamManager.cpp:47] - {
+depthDistortion: {k1: 9.77306, k2: 5.02446, k3: 0.194826, k4: 10.1039, k5: 8.30277, k6: 1.18891, p1: 7.22266e-05, p2: 4.47082e-06},
+depthIntrinsic: {cx: 514.002, cy: 519.568, fx: 505.585, fy: 505.605, width: 1024, height: 1024}, 
+rgbDistortion: {k1: 0.0702578, k2: -0.101962, k3: 0.0428269, k4: 0, k5: 0, k6: 0, p1: -0.000124789, p2: -0.000373641},
+rgbIntrinsic: {cx: 315.656, cy: 247.458, fx: 498.786, fy: 497.913, width: 640, height: 480}, 
+transform: {rot: [0.994274, 0.00400945, 0.00357911, -0.00436875, 0.994273, 0.106785, -0.00313046, -0.1068, 0.994276], trans: [-32.2565, -0.741224, 1.97471]}
+}
+[07/14 11:32:58.006884][debug][1912665][FemtoBoltAlgParamManager.cpp:47] - {
+depthDistortion: {k1: 9.77306, k2: 5.02446, k3: 0.194826, k4: 10.1039, k5: 8.30277, k6: 1.18891, p1: 7.22266e-05, p2: 4.47082e-06},
+depthIntrinsic: {cx: 322.002, cy: 339.568, fx: 505.585, fy: 505.605, width: 640, height: 576}, 
+rgbDistortion: {k1: 0.0702578, k2: -0.101962, k3: 0.0428269, k4: 0, k5: 0, k6: 0, p1: -0.000124789, p2: -0.000373641},
+rgbIntrinsic: {cx: 316.742, cy: 185.593, fx: 374.09, fy: 373.435, width: 640, height: 360}, 
+transform: {rot: [0.994274, 0.00400945, 0.00357911, -0.00436875, 0.994273, 0.106785, -0.00313046, -0.1068, 0.994276], trans: [-32.2565, -0.741224, 1.97471]}
+}
+[07/14 11:32:58.006951][debug][1912665][FemtoBoltAlgParamManager.cpp:47] - {
+depthDistortion: {k1: 9.77306, k2: 5.02446, k3: 0.194826, k4: 10.1039, k5: 8.30277, k6: 1.18891, p1: 7.22266e-05, p2: 4.47082e-06},
+depthIntrinsic: {cx: 322.002, cy: 339.568, fx: 505.585, fy: 505.605, width: 640, height: 576}, 
+rgbDistortion: {k1: 0.0702578, k2: -0.101962, k3: 0.0428269, k4: 0, k5: 0, k6: 0, p1: -0.000124789, p2: -0.000373641},
+rgbIntrinsic: {cx: 315.656, cy: 247.458, fx: 498.786, fy: 497.913, width: 640, height: 480}, 
+transform: {rot: [0.994274, 0.00400945, 0.00357911, -0.00436875, 0.994273, 0.106785, -0.00313046, -0.1068, 0.994276], trans: [-32.2565, -0.741224, 1.97471]}
+}
+[07/14 11:32:58.009349][debug][1912665][FemtoBoltAlgParamManager.cpp:75] Get depth to color profile list success! num=20
+[07/14 11:32:58.009455][debug][1912665][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 3840, colorHeight: 2160, depthWidth: 1024, depthHeight: 1024, paramIndex: 0, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 6}}
+[07/14 11:32:58.009483][debug][1912665][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 2560, colorHeight: 1440, depthWidth: 1024, depthHeight: 1024, paramIndex: 0, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 4}}
+[07/14 11:32:58.009508][debug][1912665][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 1920, colorHeight: 1080, depthWidth: 1024, depthHeight: 1024, paramIndex: 0, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 3}}
+[07/14 11:32:58.009532][debug][1912665][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 1280, colorHeight: 720, depthWidth: 1024, depthHeight: 1024, paramIndex: 0, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 2}}
+[07/14 11:32:58.009557][debug][1912665][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 3840, colorHeight: 2160, depthWidth: 512, depthHeight: 512, paramIndex: 0, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 12}}
+[07/14 11:32:58.009581][debug][1912665][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 2560, colorHeight: 1440, depthWidth: 512, depthHeight: 512, paramIndex: 0, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 8}}
+[07/14 11:32:58.009718][debug][1912665][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 1920, colorHeight: 1080, depthWidth: 512, depthHeight: 512, paramIndex: 0, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 6}}
+[07/14 11:32:58.009743][debug][1912665][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 1280, colorHeight: 720, depthWidth: 512, depthHeight: 512, paramIndex: 0, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 4}}
+[07/14 11:32:58.009768][debug][1912665][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 3840, colorHeight: 2160, depthWidth: 640, depthHeight: 576, paramIndex: 2, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 6}}
+[07/14 11:32:58.009791][debug][1912665][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 2560, colorHeight: 1440, depthWidth: 640, depthHeight: 576, paramIndex: 2, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 4}}
+[07/14 11:32:58.009840][debug][1912665][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 1920, colorHeight: 1080, depthWidth: 640, depthHeight: 576, paramIndex: 2, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 3}}
+[07/14 11:32:58.009943][debug][1912665][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 1280, colorHeight: 720, depthWidth: 640, depthHeight: 576, paramIndex: 2, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 2}}
+[07/14 11:32:58.009985][debug][1912665][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 3840, colorHeight: 2160, depthWidth: 320, depthHeight: 288, paramIndex: 2, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 12}}
+[07/14 11:32:58.010014][debug][1912665][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 2560, colorHeight: 1440, depthWidth: 320, depthHeight: 288, paramIndex: 2, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 8}}
+[07/14 11:32:58.010039][debug][1912665][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 1920, colorHeight: 1080, depthWidth: 320, depthHeight: 288, paramIndex: 2, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 6}}
+[07/14 11:32:58.010063][debug][1912665][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 1280, colorHeight: 720, depthWidth: 320, depthHeight: 288, paramIndex: 2, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 4}}
+[07/14 11:32:58.010086][debug][1912665][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 1280, colorHeight: 960, depthWidth: 1024, depthHeight: 1024, paramIndex: 1, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 2}}
+[07/14 11:32:58.010110][debug][1912665][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 1280, colorHeight: 960, depthWidth: 512, depthHeight: 512, paramIndex: 1, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 4}}
+[07/14 11:32:58.010133][debug][1912665][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 1280, colorHeight: 960, depthWidth: 640, depthHeight: 576, paramIndex: 3, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 2}}
+[07/14 11:32:58.010157][debug][1912665][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 1280, colorHeight: 960, depthWidth: 320, depthHeight: 288, paramIndex: 3, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 4}}
+[07/14 11:32:58.013588][debug][1912665][FemtoBoltAlgParamManager.cpp:99] Get imu calibration params success!
+[07/14 11:32:58.013722][debug][1912665][FemtoBoltUvcDevice.cpp:301] init default softFilterParam: maxSpeckleSize: 25, maxDiff: 300, filterType: 1
+[07/14 11:32:58.352123][debug][1912665][PropertyAccessor.cpp:64] get raw data! propertyId: 4036, async: false
+[07/14 11:32:58.352352][info][1912665][FemtoBoltUvcDevice.cpp:397] Init depth process param done!
+[07/14 11:32:58.352441][debug][1912665][HostProtocol.cpp:417] Set property value, propertyId=38, value={intValue: 1, floatValue: 1.4013e-45}
+[07/14 11:32:58.352927][debug][1912665][PropertyAccessor.cpp:17] set property value success! propertyId: 38, value: {intValue: 1, floatValue: 1.4013e-45}
+[07/14 11:32:58.352963][debug][1912665][HostProtocol.cpp:417] Set property value, propertyId=77, value={intValue: 1, floatValue: 1.4013e-45}
+[07/14 11:32:58.353417][debug][1912665][PropertyAccessor.cpp:17] set property value success! propertyId: 77, value: {intValue: 1, floatValue: 1.4013e-45}
+[07/14 11:32:58.353446][info][1912665][FemtoBoltUvcDevice.cpp:38] FemtoBoltUvcDevice init done!
+[07/14 11:32:58.353479][debug][1912665][UsbDeviceEnumerator.cpp:352] Device created successfully! Name: Femto Bolt, PID: 0x066b, SN/ID: CL8K14101JD
+[07/14 11:32:58.353497][info][1912665][DeviceManager.cpp:150] Device created successfully! Name: Femto Bolt, PID: 0x066b, SN/ID: CL8K14101JD
+[07/14 11:32:58.353625][info][1912665][Pipeline.cpp:15] Try to create pipeline with default device.
+[07/14 11:32:58.353665][debug][1912665][DeviceManager.cpp:109] DeviceManager  createDevice...
+[07/14 11:32:58.353714][debug][1912665][Pipeline.cpp:29] Pipeline init ...
+[07/14 11:32:58.353748][debug][1912665][Pipeline.cpp:168] loadFrameQueueSizeConfig() config queue size: 10
+[07/14 11:32:58.353815][info][1912665][Pipeline.cpp:47] Pipeline created with device: {name: Femto Bolt, sn: CL8K14101JD}, @0x13E904368
+[07/14 11:32:58.354020][debug][1912704][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[07/14 11:32:58.354123][debug][1912665][FrameProcessor.cpp:82] FrameProcessor init with 6 blocks! @5344609480
+[07/14 11:32:58.354163][debug][1912665][FrameProcessingBlock.cpp:26] Block created with frame queue size: 10
+[07/14 11:32:58.354218][debug][1912665][FrameProcessor.cpp:90]  - block: FrameSoftFilter, status: disable
+[07/14 11:32:58.354259][debug][1912665][FrameProcessingBlock.cpp:26] Block created with frame queue size: 10
+[07/14 11:32:58.354280][debug][1912665][FrameProcessor.cpp:90]  - block: FrameMirror, status: disable
+[07/14 11:32:58.354302][debug][1912665][FrameProcessingBlock.cpp:26] Block created with frame queue size: 10
+[07/14 11:32:58.354324][debug][1912665][FrameProcessor.cpp:90]  - block: D2CFilter, status: disable
+[07/14 11:32:58.354354][debug][1912665][FrameProcessingBlock.cpp:26] Block created with frame queue size: 10
+[07/14 11:32:58.354369][debug][1912665][FrameProcessor.cpp:90]  - block: PostProcessFilter, status: disable
+[07/14 11:32:58.354385][debug][1912665][FrameProcessingBlock.cpp:26] Block created with frame queue size: 10
+[07/14 11:32:58.354401][debug][1912665][FrameProcessor.cpp:90]  - block: FrameFlip, status: disable
+[07/14 11:32:58.354418][debug][1912665][FrameProcessingBlock.cpp:26] Block created with frame queue size: 10
+[07/14 11:32:58.354433][debug][1912665][FrameProcessor.cpp:90]  - block: FrameRotate, status: disable
+[07/14 11:32:58.354606][debug][1912665][VideoSensor.cpp:252] VideoSensor construct!
+[07/14 11:32:58.354639][debug][1912665][VideoSensor.cpp:278] VideoSensor created, @OB_SENSOR_DEPTH
+[07/14 11:32:58.354686][info][1912665][FemtoBoltUvcDevice.cpp:528] Depth sensor has been created!
+[07/14 11:32:58.354781][debug][1912665][VideoSensor.cpp:119] device has original Y16 format, no need to add virtual format!
+[07/14 11:32:58.354822][info][1912665][VideoSensor.cpp:384] Query stream profile! size= 14, SensorType=OB_SENSOR_DEPTH
+[07/14 11:32:58.354860][info][1912665][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 640, height: 576, fps: 15}
+[07/14 11:32:58.354883][info][1912665][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 1024, height: 1024, fps: 15}
+[07/14 11:32:58.355038][info][1912665][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 1024, height: 1024, fps: 5}
+[07/14 11:32:58.355063][info][1912665][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 640, height: 576, fps: 30}
+[07/14 11:32:58.355085][info][1912665][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 320, height: 288, fps: 30}
+[07/14 11:32:58.355106][info][1912665][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 640, height: 576, fps: 25}
+[07/14 11:32:58.355127][info][1912665][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 320, height: 288, fps: 25}
+[07/14 11:32:58.355149][info][1912665][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 320, height: 288, fps: 15}
+[07/14 11:32:58.355169][info][1912665][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 640, height: 576, fps: 5}
+[07/14 11:32:58.355190][info][1912665][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 320, height: 288, fps: 5}
+[07/14 11:32:58.355211][info][1912665][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 512, height: 512, fps: 30}
+[07/14 11:32:58.355228][info][1912665][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 512, height: 512, fps: 25}
+[07/14 11:32:58.355244][info][1912665][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 512, height: 512, fps: 15}
+[07/14 11:32:58.355260][info][1912665][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 512, height: 512, fps: 5}
+[07/14 11:32:58.356364][debug][1912665][Pipeline.cpp:227] Pipeline start() start!
+[07/14 11:32:58.356391][info][1912665][Pipeline.cpp:188] Check and set config start!
+[07/14 11:32:58.356415][info][1912665][Pipeline.cpp:223] Check and set config done!
+[07/14 11:32:58.356521][debug][1912665][PropertyAccessor.cpp:28] get property value success! propertyId: 14, value: {intValue: 0, floatValue: 0}
+[07/14 11:32:58.356542][debug][1912665][PropertyAccessor.cpp:28] get property value success! propertyId: 15, value: {intValue: 0, floatValue: 0}
+[07/14 11:32:58.356560][debug][1912665][PropertyAccessor.cpp:28] get property value success! propertyId: 118, value: {intValue: 0, floatValue: 0}
+[07/14 11:32:58.356582][debug][1912665][HostProtocol.cpp:417] Set property value, propertyId=63, value={intValue: 2, floatValue: 2.8026e-45}
+[07/14 11:32:58.357011][debug][1912665][PropertyAccessor.cpp:17] set property value success! propertyId: 63, value: {intValue: 2, floatValue: 2.8026e-45}
+[07/14 11:32:58.357036][debug][1912665][PropertyAccessor.cpp:28] get property value success! propertyId: 14, value: {intValue: 0, floatValue: 0}
+[07/14 11:32:58.357053][debug][1912665][PropertyAccessor.cpp:28] get property value success! propertyId: 15, value: {intValue: 0, floatValue: 0}
+[07/14 11:32:58.357070][debug][1912665][PropertyAccessor.cpp:28] get property value success! propertyId: 118, value: {intValue: 0, floatValue: 0}
+[07/14 11:32:58.357096][debug][1912665][FrameProcessingBlockManager.cpp:75]  FrameProcessingBlockManager started, 0 blocks contained!
+[07/14 11:32:58.357109][info][1912665][Pipeline.cpp:288] Try to start streams!
+[07/14 11:32:58.357173][debug][1912665][VideoSensor.cpp:566] VideoSensor::start, @OB_SENSOR_DEPTH
+[07/14 11:32:58.357187][debug][1912665][FrameMemoryPool.cpp:35] FrameMemoryPool created!
+[07/14 11:32:58.357240][debug][1912665][FrameBufferManager.hpp:65] FrameBufferManager created! frame type:N11libobsensor10DepthFrameE, obj addr:0x600003854080, frame obj total size:0.704MB
+[07/14 11:32:58.357254][debug][1912665][FrameMemoryPool.cpp:59] DepthFrame bufferManager created!
+[07/14 11:32:58.357266][debug][1912665][FrameProcessor.cpp:136] Frame processor active blocks chain update: input -> output
+[07/14 11:32:58.357275][debug][1912665][FrameProcessor.cpp:147] FrameProcessor started, 6 blocks contained!
+[07/14 11:32:58.357363][info][1912665][VideoSensor.cpp:646] start OB_SENSOR_DEPTH stream with profile: {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 640, height: 576, fps: 30}, Backend Format: OB_FORMAT_Y16
+[07/14 11:32:58.357384][info][1912665][MSDEConverterDevice.cpp:549] Start real profile,width:7680 height:434
+[07/14 11:32:58.357400][debug][1912665][ObLibuvcDevicePort.cpp:75] ObLibuvcDevicePort::startStream()...
+[07/14 11:32:58.357417][debug][1912665][ObLibuvcDevicePort.cpp:90] playProfile: infIndex=2, selected_format.width=7680, height=434, format=OB_FORMAT_Y16
+[07/14 11:32:58.362332][debug][1912665][ObLibuvcDevicePort.cpp:143] ObLibuvcDevicePort::startStream() done
+[07/14 11:32:58.362446][debug][1912665][FrameBufferManager.hpp:65] FrameBufferManager created! frame type:N11libobsensor13RawPhaseFrameE, obj addr:0x60000384c200, frame obj total size:6.358MB
+[07/14 11:32:58.362464][debug][1912665][FrameMemoryPool.cpp:95] RawPhaseFrame bufferManager created!
+[07/14 11:32:58.362491][debug][1912665][FemtoBoltUvcDevice.cpp:519] Depth sensor update FrameSoftFilter: maxdiff:300, maxSpeckleSize:25!
+[07/14 11:32:58.362507][debug][1912665][FrameProcessor.cpp:136] Frame processor active blocks chain update: input ->FrameSoftFilter -> output
+[07/14 11:32:58.362553][debug][1912665][VideoSensor.cpp:672] Stream state changed to STREAM_STATE_STARTING. @OB_SENSOR_DEPTH
+[07/14 11:32:58.362565][debug][1912665][VideoSensor.cpp:674] Stream starting! @OB_SENSOR_DEPTH
+[07/14 11:32:58.362576][debug][1912665][Pipeline.cpp:299] Sensor stream started, sensorType=OB_SENSOR_DEPTH
+[07/14 11:32:58.362587][info][1912665][Pipeline.cpp:301] Start streams done!
+[07/14 11:32:58.362609][info][1912665][Pipeline.cpp:277] Pipeline start done!
+[07/14 11:32:58.622079][debug][1912705][FrameBufferManager.cpp:35] New frame buffer allocated=6.358MB, total usage: allocated=6.358MB, max limit=2048.000MB
+[07/14 11:32:58.663980][warning][1912665][Pipeline.cpp:377] Wait for frame timeout, you can try to increase the wait time! current timeout=100
+[07/14 11:33:01.360041][debug][1912704][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[07/14 11:33:01.732887][warning][1912665][Pipeline.cpp:377] Wait for frame timeout, you can try to increase the wait time! current timeout=100 [**22 logs in 3068ms**]
+[07/14 11:33:04.365729][debug][1912704][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[07/14 11:33:06.004816][debug][1912700][VendorCommand.cpp:429] get TimeStamp: tsp=362593, rtt=0
+[07/14 11:33:06.011719][debug][1912700][GlobalTimestampFitter.cpp:143] GlobalTimestampFitter update: coefficientA = 1000.4002023782009, constantB = 1720981623269830.2
+[07/14 11:33:07.371355][debug][1912704][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[07/14 11:33:07.862387][warning][1912665][Pipeline.cpp:377] Wait for frame timeout, you can try to increase the wait time! current timeout=100 [**45 logs in 6129ms**]
+[07/14 11:33:10.377472][debug][1912704][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[07/14 11:33:13.382962][debug][1912704][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[07/14 11:33:14.016666][debug][1912700][VendorCommand.cpp:429] get TimeStamp: tsp=370605, rtt=0
+[07/14 11:33:14.016695][debug][1912700][GlobalTimestampFitter.cpp:143] GlobalTimestampFitter update: coefficientA = 1000.0607690630022, constantB = 1720981623390288.8
+[07/14 11:33:16.386139][debug][1912704][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[07/14 11:33:19.391703][debug][1912704][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[07/14 11:33:19.981304][warning][1912665][Pipeline.cpp:377] Wait for frame timeout, you can try to increase the wait time! current timeout=100 [**89 logs in 12118ms**]
+[07/14 11:33:22.016968][debug][1912700][VendorCommand.cpp:429] get TimeStamp: tsp=378606, rtt=0
+[07/14 11:33:22.017031][debug][1912700][GlobalTimestampFitter.cpp:143] GlobalTimestampFitter update: coefficientA = 999.9865744768177, constantB = 1720981623416682.8
+[07/14 11:33:22.397377][debug][1912704][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[07/14 11:33:25.403415][debug][1912704][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[07/14 11:33:28.409884][debug][1912704][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[07/14 11:33:30.019829][debug][1912700][VendorCommand.cpp:429] get TimeStamp: tsp=386609, rtt=0
+[07/14 11:33:30.019870][debug][1912700][GlobalTimestampFitter.cpp:143] GlobalTimestampFitter update: coefficientA = 999.9643466307976, constantB = 1720981623424692.2
+[07/14 11:33:31.415564][debug][1912704][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[07/14 11:33:34.421374][debug][1912704][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[07/14 11:33:37.427887][debug][1912704][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[07/14 11:33:38.022271][debug][1912700][VendorCommand.cpp:429] get TimeStamp: tsp=394611, rtt=0
+[07/14 11:33:38.022325][debug][1912700][GlobalTimestampFitter.cpp:143] GlobalTimestampFitter update: coefficientA = 999.96860856831, constantB = 1720981623423181
+[07/14 11:33:40.433944][debug][1912704][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[07/14 11:33:43.439476][debug][1912704][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[07/14 11:33:44.109937][warning][1912665][Pipeline.cpp:377] Wait for frame timeout, you can try to increase the wait time! current timeout=100 [**177 logs in 24128ms**]
+[07/14 11:33:46.027280][debug][1912700][VendorCommand.cpp:429] get TimeStamp: tsp=402617, rtt=0
+[07/14 11:33:46.027314][debug][1912700][GlobalTimestampFitter.cpp:143] GlobalTimestampFitter update: coefficientA = 999.9625412684833, constantB = 1720981623425415
+[07/14 11:33:46.443009][debug][1912704][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[07/14 11:33:49.448651][debug][1912704][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[07/14 11:33:52.452038][debug][1912704][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[07/14 11:34:26.135046][debug][1914922][Context.cpp:30] Context creating, work_dir=/Users/atharvp04/OrbbecSDK/examples/cpp/OrbbecTesting/build
+[07/14 11:34:26.135581][debug][1914922][Context.cpp:49] Config file version=1.1
+[07/14 11:34:26.135613][debug][1914922][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[07/14 11:34:26.135619][info][1914922][Context.cpp:68] Context created with config: default config!
+[07/14 11:34:26.135658][info][1914922][Context.cpp:73] Work directory=/Users/atharvp04/OrbbecSDK/examples/cpp/OrbbecTesting/build, SDK version=v1.10.8-20240604-d1671a341
+[07/14 11:34:26.135666][debug][1914922][DeviceManager.cpp:30] DeviceManager init ...
+[07/14 11:34:26.135670][info][1914922][MacPal.cpp:31] createObPal: create MacPal!
+[07/14 11:34:26.142902][debug][1914922][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[07/14 11:34:26.143310][debug][1914922][EnumeratorLibusb.cpp:322] queryDevicesInfo done!
+[07/14 11:34:26.143322][debug][1914922][UsbDeviceEnumerator.cpp:162] Current usb device port list:
+[07/14 11:34:26.143331][debug][1914922][UsbDeviceEnumerator.cpp:165]  - 0-2-1.0 | Orbbec Femto Bolt RGB Camera
+[07/14 11:34:26.143340][debug][1914922][UsbDeviceEnumerator.cpp:165]  - 0-2-1.2 | Orbbec Femto Bolt Depth Camera
+[07/14 11:34:26.143345][debug][1914922][UsbDeviceEnumerator.cpp:165]  - 0-2-1.4 | HID Interface
+[07/14 11:34:26.143535][info][1914922][MacPal.cpp:121] Create PollingDeviceWatcher!
+[07/14 11:34:26.143549][debug][1914922][UsbDeviceEnumerator.cpp:70] Found 1 device(s):
+[07/14 11:34:26.143554][debug][1914922][UsbDeviceEnumerator.cpp:73]   - Name: Femto Bolt, PID: 0x066B, SN/ID: CL8K14101JD, connection: USB3.1
+[07/14 11:34:26.143606][info][1914922][DeviceManager.cpp:15] Current found device(s): (1)
+[07/14 11:34:26.143615][info][1914922][DeviceManager.cpp:24] 	- Name: Femto Bolt, PID: 0x066b, SN/ID: CL8K14101JD, Connection: USB3.1
+[07/14 11:34:26.143621][debug][1914922][DeviceManager.cpp:52] DeviceManager construct done!
+[07/14 11:34:26.143794][debug][1914922][DeviceManager.cpp:109] DeviceManager  createDevice...
+[07/14 11:34:26.143804][debug][1914922][UsbDeviceEnumerator.cpp:288] UsbDeviceEnumerator createDevice...
+[07/14 11:34:26.143951][info][1914922][FemtoBoltUvcDevice.cpp:23] FemtoBoltUvcDevice init ...
+[07/14 11:34:26.144137][info][1914922][FemtoBoltUvcDevice.cpp:121] Create command start!
+[07/14 11:34:26.183918][debug][1914922][ObLibuvcDevicePort.cpp:58] uvc_open success
+[07/14 11:34:26.183996][debug][1914922][VendorCommand.cpp:205] VendorCommand constructor 600003ce01b8
+[07/14 11:34:26.185138][debug][1914922][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1000, dataLen: 164
+[07/14 11:34:26.185559][debug][1914922][HostProtocol.cpp:450] get property value success! propertyId=98, cur={intValue: 0, floatValue: 0}, max={intValue: 1, floatValue: 1.4013e-45}, min={intValue: 0, floatValue: 0},def={intValue: 0, floatValue: 0},step={intValue: 1, floatValue: 1.4013e-45}
+[07/14 11:34:26.185574][debug][1914922][PropertyAccessor.cpp:28] get property value success! propertyId: 98, value: {intValue: 0, floatValue: 0}
+[07/14 11:34:26.185971][debug][1914960][VendorCommand.cpp:429] get TimeStamp: tsp=442777, rtt=0
+[07/14 11:34:26.241565][debug][1914960][VendorCommand.cpp:429] get TimeStamp: tsp=442832, rtt=0
+[07/14 11:34:26.297161][debug][1914960][VendorCommand.cpp:429] get TimeStamp: tsp=442888, rtt=0
+[07/14 11:34:26.352752][debug][1914960][VendorCommand.cpp:429] get TimeStamp: tsp=442943, rtt=0
+[07/14 11:34:26.405685][debug][1914960][VendorCommand.cpp:429] get TimeStamp: tsp=442996, rtt=0
+[07/14 11:34:26.457113][debug][1914960][VendorCommand.cpp:429] get TimeStamp: tsp=443048, rtt=0
+[07/14 11:34:26.512804][debug][1914960][VendorCommand.cpp:429] get TimeStamp: tsp=443103, rtt=0
+[07/14 11:34:26.567672][debug][1914960][VendorCommand.cpp:429] get TimeStamp: tsp=443158, rtt=0
+[07/14 11:34:26.622521][debug][1914960][VendorCommand.cpp:429] get TimeStamp: tsp=443213, rtt=0
+[07/14 11:34:26.678204][debug][1914960][VendorCommand.cpp:429] get TimeStamp: tsp=443269, rtt=0
+[07/14 11:34:26.678394][debug][1914960][GlobalTimestampFitter.cpp:143] GlobalTimestampFitter update: coefficientA = 1000.3401532495196, constantB = 1720981623258496.8
+[07/14 11:34:26.678429][debug][1914922][GlobalTimestampFitter.cpp:27] GlobalTimestampFitter created: maxQueueSize_=10, refreshIntervalMsec_=8000
+[07/14 11:34:26.679389][debug][1914922][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1000, dataLen: 164
+[07/14 11:34:26.679417][info][1914922][AbstractDevice.cpp:116] 	- Firmware version: 1.0.9
+[07/14 11:34:26.679457][info][1914922][FemtoBoltUvcDevice.cpp:280] Create command done!
+[07/14 11:34:26.679475][info][1914922][FemtoBoltUvcDevice.cpp:401] init sensor map start!
+[07/14 11:34:26.680519][info][1914922][FemtoBoltUvcDevice.cpp:428] init sensor map done!
+[07/14 11:34:26.680740][info][1914922][FemtoBoltUvcDevice.cpp:284] Init depth process param start!
+[07/14 11:34:26.682500][debug][1914922][FemtoBoltAlgParamManager.cpp:43] Get align calibration camera params success! num=4
+[07/14 11:34:26.682600][debug][1914922][FemtoBoltAlgParamManager.cpp:47] - {
+depthDistortion: {k1: 9.77306, k2: 5.02446, k3: 0.194826, k4: 10.1039, k5: 8.30277, k6: 1.18891, p1: 7.22266e-05, p2: 4.47082e-06},
+depthIntrinsic: {cx: 514.002, cy: 519.568, fx: 505.585, fy: 505.605, width: 1024, height: 1024}, 
+rgbDistortion: {k1: 0.0702578, k2: -0.101962, k3: 0.0428269, k4: 0, k5: 0, k6: 0, p1: -0.000124789, p2: -0.000373641},
+rgbIntrinsic: {cx: 316.742, cy: 185.593, fx: 374.09, fy: 373.435, width: 640, height: 360}, 
+transform: {rot: [0.994274, 0.00400945, 0.00357911, -0.00436875, 0.994273, 0.106785, -0.00313046, -0.1068, 0.994276], trans: [-32.2565, -0.741224, 1.97471]}
+}
+[07/14 11:34:26.682775][debug][1914922][FemtoBoltAlgParamManager.cpp:47] - {
+depthDistortion: {k1: 9.77306, k2: 5.02446, k3: 0.194826, k4: 10.1039, k5: 8.30277, k6: 1.18891, p1: 7.22266e-05, p2: 4.47082e-06},
+depthIntrinsic: {cx: 514.002, cy: 519.568, fx: 505.585, fy: 505.605, width: 1024, height: 1024}, 
+rgbDistortion: {k1: 0.0702578, k2: -0.101962, k3: 0.0428269, k4: 0, k5: 0, k6: 0, p1: -0.000124789, p2: -0.000373641},
+rgbIntrinsic: {cx: 315.656, cy: 247.458, fx: 498.786, fy: 497.913, width: 640, height: 480}, 
+transform: {rot: [0.994274, 0.00400945, 0.00357911, -0.00436875, 0.994273, 0.106785, -0.00313046, -0.1068, 0.994276], trans: [-32.2565, -0.741224, 1.97471]}
+}
+[07/14 11:34:26.682816][debug][1914922][FemtoBoltAlgParamManager.cpp:47] - {
+depthDistortion: {k1: 9.77306, k2: 5.02446, k3: 0.194826, k4: 10.1039, k5: 8.30277, k6: 1.18891, p1: 7.22266e-05, p2: 4.47082e-06},
+depthIntrinsic: {cx: 322.002, cy: 339.568, fx: 505.585, fy: 505.605, width: 640, height: 576}, 
+rgbDistortion: {k1: 0.0702578, k2: -0.101962, k3: 0.0428269, k4: 0, k5: 0, k6: 0, p1: -0.000124789, p2: -0.000373641},
+rgbIntrinsic: {cx: 316.742, cy: 185.593, fx: 374.09, fy: 373.435, width: 640, height: 360}, 
+transform: {rot: [0.994274, 0.00400945, 0.00357911, -0.00436875, 0.994273, 0.106785, -0.00313046, -0.1068, 0.994276], trans: [-32.2565, -0.741224, 1.97471]}
+}
+[07/14 11:34:26.682855][debug][1914922][FemtoBoltAlgParamManager.cpp:47] - {
+depthDistortion: {k1: 9.77306, k2: 5.02446, k3: 0.194826, k4: 10.1039, k5: 8.30277, k6: 1.18891, p1: 7.22266e-05, p2: 4.47082e-06},
+depthIntrinsic: {cx: 322.002, cy: 339.568, fx: 505.585, fy: 505.605, width: 640, height: 576}, 
+rgbDistortion: {k1: 0.0702578, k2: -0.101962, k3: 0.0428269, k4: 0, k5: 0, k6: 0, p1: -0.000124789, p2: -0.000373641},
+rgbIntrinsic: {cx: 315.656, cy: 247.458, fx: 498.786, fy: 497.913, width: 640, height: 480}, 
+transform: {rot: [0.994274, 0.00400945, 0.00357911, -0.00436875, 0.994273, 0.106785, -0.00313046, -0.1068, 0.994276], trans: [-32.2565, -0.741224, 1.97471]}
+}
+[07/14 11:34:26.684623][debug][1914922][FemtoBoltAlgParamManager.cpp:75] Get depth to color profile list success! num=20
+[07/14 11:34:26.684660][debug][1914922][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 3840, colorHeight: 2160, depthWidth: 1024, depthHeight: 1024, paramIndex: 0, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 6}}
+[07/14 11:34:26.684681][debug][1914922][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 2560, colorHeight: 1440, depthWidth: 1024, depthHeight: 1024, paramIndex: 0, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 4}}
+[07/14 11:34:26.684709][debug][1914922][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 1920, colorHeight: 1080, depthWidth: 1024, depthHeight: 1024, paramIndex: 0, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 3}}
+[07/14 11:34:26.684728][debug][1914922][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 1280, colorHeight: 720, depthWidth: 1024, depthHeight: 1024, paramIndex: 0, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 2}}
+[07/14 11:34:26.684746][debug][1914922][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 3840, colorHeight: 2160, depthWidth: 512, depthHeight: 512, paramIndex: 0, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 12}}
+[07/14 11:34:26.684765][debug][1914922][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 2560, colorHeight: 1440, depthWidth: 512, depthHeight: 512, paramIndex: 0, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 8}}
+[07/14 11:34:26.684783][debug][1914922][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 1920, colorHeight: 1080, depthWidth: 512, depthHeight: 512, paramIndex: 0, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 6}}
+[07/14 11:34:26.684844][debug][1914922][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 1280, colorHeight: 720, depthWidth: 512, depthHeight: 512, paramIndex: 0, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 4}}
+[07/14 11:34:26.684863][debug][1914922][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 3840, colorHeight: 2160, depthWidth: 640, depthHeight: 576, paramIndex: 2, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 6}}
+[07/14 11:34:26.684882][debug][1914922][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 2560, colorHeight: 1440, depthWidth: 640, depthHeight: 576, paramIndex: 2, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 4}}
+[07/14 11:34:26.684903][debug][1914922][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 1920, colorHeight: 1080, depthWidth: 640, depthHeight: 576, paramIndex: 2, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 3}}
+[07/14 11:34:26.684922][debug][1914922][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 1280, colorHeight: 720, depthWidth: 640, depthHeight: 576, paramIndex: 2, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 2}}
+[07/14 11:34:26.684940][debug][1914922][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 3840, colorHeight: 2160, depthWidth: 320, depthHeight: 288, paramIndex: 2, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 12}}
+[07/14 11:34:26.684959][debug][1914922][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 2560, colorHeight: 1440, depthWidth: 320, depthHeight: 288, paramIndex: 2, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 8}}
+[07/14 11:34:26.684977][debug][1914922][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 1920, colorHeight: 1080, depthWidth: 320, depthHeight: 288, paramIndex: 2, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 6}}
+[07/14 11:34:26.684995][debug][1914922][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 1280, colorHeight: 720, depthWidth: 320, depthHeight: 288, paramIndex: 2, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 4}}
+[07/14 11:34:26.685014][debug][1914922][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 1280, colorHeight: 960, depthWidth: 1024, depthHeight: 1024, paramIndex: 1, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 2}}
+[07/14 11:34:26.685032][debug][1914922][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 1280, colorHeight: 960, depthWidth: 512, depthHeight: 512, paramIndex: 1, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 4}}
+[07/14 11:34:26.685050][debug][1914922][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 1280, colorHeight: 960, depthWidth: 640, depthHeight: 576, paramIndex: 3, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 2}}
+[07/14 11:34:26.685068][debug][1914922][FemtoBoltAlgParamManager.cpp:79]  - {alignType: 2, colorWidth: 1280, colorHeight: 960, depthWidth: 320, depthHeight: 288, paramIndex: 3, postProcessParam: {alignLeft: 0, alignTop: 0, alignRight: 0, alignBottom: 0, depthScale: 4}}
+[07/14 11:34:26.688431][debug][1914922][FemtoBoltAlgParamManager.cpp:99] Get imu calibration params success!
+[07/14 11:34:26.688501][debug][1914922][FemtoBoltUvcDevice.cpp:301] init default softFilterParam: maxSpeckleSize: 25, maxDiff: 300, filterType: 1
+[07/14 11:34:27.027480][debug][1914922][PropertyAccessor.cpp:64] get raw data! propertyId: 4036, async: false
+[07/14 11:34:27.027706][info][1914922][FemtoBoltUvcDevice.cpp:397] Init depth process param done!
+[07/14 11:34:27.027785][debug][1914922][HostProtocol.cpp:417] Set property value, propertyId=38, value={intValue: 1, floatValue: 1.4013e-45}
+[07/14 11:34:27.028351][debug][1914922][PropertyAccessor.cpp:17] set property value success! propertyId: 38, value: {intValue: 1, floatValue: 1.4013e-45}
+[07/14 11:34:27.028411][debug][1914922][HostProtocol.cpp:417] Set property value, propertyId=77, value={intValue: 1, floatValue: 1.4013e-45}
+[07/14 11:34:27.028941][debug][1914922][PropertyAccessor.cpp:17] set property value success! propertyId: 77, value: {intValue: 1, floatValue: 1.4013e-45}
+[07/14 11:34:27.028971][info][1914922][FemtoBoltUvcDevice.cpp:38] FemtoBoltUvcDevice init done!
+[07/14 11:34:27.029002][debug][1914922][UsbDeviceEnumerator.cpp:352] Device created successfully! Name: Femto Bolt, PID: 0x066b, SN/ID: CL8K14101JD
+[07/14 11:34:27.029021][info][1914922][DeviceManager.cpp:150] Device created successfully! Name: Femto Bolt, PID: 0x066b, SN/ID: CL8K14101JD
+[07/14 11:34:27.029611][debug][1914963][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[07/14 11:34:27.029693][info][1914922][Pipeline.cpp:15] Try to create pipeline with default device.
+[07/14 11:34:27.029726][debug][1914922][DeviceManager.cpp:109] DeviceManager  createDevice...
+[07/14 11:34:27.030168][debug][1914922][Pipeline.cpp:29] Pipeline init ...
+[07/14 11:34:27.030224][debug][1914922][Pipeline.cpp:168] loadFrameQueueSizeConfig() config queue size: 10
+[07/14 11:34:27.030293][info][1914922][Pipeline.cpp:47] Pipeline created with device: {name: Femto Bolt, sn: CL8K14101JD}, @0x142F04BC8
+[07/14 11:34:27.030660][debug][1914922][FrameProcessor.cpp:82] FrameProcessor init with 6 blocks! @5421154936
+[07/14 11:34:27.030709][debug][1914922][FrameProcessingBlock.cpp:26] Block created with frame queue size: 10
+[07/14 11:34:27.030757][debug][1914922][FrameProcessor.cpp:90]  - block: FrameSoftFilter, status: disable
+[07/14 11:34:27.030785][debug][1914922][FrameProcessingBlock.cpp:26] Block created with frame queue size: 10
+[07/14 11:34:27.030802][debug][1914922][FrameProcessor.cpp:90]  - block: FrameMirror, status: disable
+[07/14 11:34:27.030822][debug][1914922][FrameProcessingBlock.cpp:26] Block created with frame queue size: 10
+[07/14 11:34:27.030839][debug][1914922][FrameProcessor.cpp:90]  - block: D2CFilter, status: disable
+[07/14 11:34:27.030858][debug][1914922][FrameProcessingBlock.cpp:26] Block created with frame queue size: 10
+[07/14 11:34:27.030873][debug][1914922][FrameProcessor.cpp:90]  - block: PostProcessFilter, status: disable
+[07/14 11:34:27.030889][debug][1914922][FrameProcessingBlock.cpp:26] Block created with frame queue size: 10
+[07/14 11:34:27.030905][debug][1914922][FrameProcessor.cpp:90]  - block: FrameFlip, status: disable
+[07/14 11:34:27.030922][debug][1914922][FrameProcessingBlock.cpp:26] Block created with frame queue size: 10
+[07/14 11:34:27.030937][debug][1914922][FrameProcessor.cpp:90]  - block: FrameRotate, status: disable
+[07/14 11:34:27.031651][debug][1914922][VideoSensor.cpp:252] VideoSensor construct!
+[07/14 11:34:27.031678][debug][1914922][VideoSensor.cpp:278] VideoSensor created, @OB_SENSOR_DEPTH
+[07/14 11:34:27.031724][info][1914922][FemtoBoltUvcDevice.cpp:528] Depth sensor has been created!
+[07/14 11:34:27.031800][debug][1914922][VideoSensor.cpp:119] device has original Y16 format, no need to add virtual format!
+[07/14 11:34:27.031833][info][1914922][VideoSensor.cpp:384] Query stream profile! size= 14, SensorType=OB_SENSOR_DEPTH
+[07/14 11:34:27.031861][info][1914922][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 640, height: 576, fps: 15}
+[07/14 11:34:27.031878][info][1914922][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 1024, height: 1024, fps: 15}
+[07/14 11:34:27.031895][info][1914922][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 1024, height: 1024, fps: 5}
+[07/14 11:34:27.031912][info][1914922][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 640, height: 576, fps: 30}
+[07/14 11:34:27.031928][info][1914922][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 320, height: 288, fps: 30}
+[07/14 11:34:27.032024][info][1914922][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 640, height: 576, fps: 25}
+[07/14 11:34:27.032043][info][1914922][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 320, height: 288, fps: 25}
+[07/14 11:34:27.032059][info][1914922][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 320, height: 288, fps: 15}
+[07/14 11:34:27.032076][info][1914922][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 640, height: 576, fps: 5}
+[07/14 11:34:27.032092][info][1914922][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 320, height: 288, fps: 5}
+[07/14 11:34:27.032108][info][1914922][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 512, height: 512, fps: 30}
+[07/14 11:34:27.032124][info][1914922][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 512, height: 512, fps: 25}
+[07/14 11:34:27.032140][info][1914922][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 512, height: 512, fps: 15}
+[07/14 11:34:27.032191][info][1914922][VideoSensor.cpp:386]  - {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 512, height: 512, fps: 5}
+[07/14 11:34:27.032335][debug][1914922][Pipeline.cpp:227] Pipeline start() start!
+[07/14 11:34:27.032352][info][1914922][Pipeline.cpp:188] Check and set config start!
+[07/14 11:34:27.032378][info][1914922][Pipeline.cpp:223] Check and set config done!
+[07/14 11:34:27.032491][debug][1914922][PropertyAccessor.cpp:28] get property value success! propertyId: 14, value: {intValue: 0, floatValue: 0}
+[07/14 11:34:27.032511][debug][1914922][PropertyAccessor.cpp:28] get property value success! propertyId: 15, value: {intValue: 0, floatValue: 0}
+[07/14 11:34:27.032532][debug][1914922][PropertyAccessor.cpp:28] get property value success! propertyId: 118, value: {intValue: 0, floatValue: 0}
+[07/14 11:34:27.032564][debug][1914922][HostProtocol.cpp:417] Set property value, propertyId=63, value={intValue: 2, floatValue: 2.8026e-45}
+[07/14 11:34:27.033098][debug][1914922][PropertyAccessor.cpp:17] set property value success! propertyId: 63, value: {intValue: 2, floatValue: 2.8026e-45}
+[07/14 11:34:27.033130][debug][1914922][PropertyAccessor.cpp:28] get property value success! propertyId: 14, value: {intValue: 0, floatValue: 0}
+[07/14 11:34:27.033147][debug][1914922][PropertyAccessor.cpp:28] get property value success! propertyId: 15, value: {intValue: 0, floatValue: 0}
+[07/14 11:34:27.033166][debug][1914922][PropertyAccessor.cpp:28] get property value success! propertyId: 118, value: {intValue: 0, floatValue: 0}
+[07/14 11:34:27.033196][debug][1914922][FrameProcessingBlockManager.cpp:75]  FrameProcessingBlockManager started, 0 blocks contained!
+[07/14 11:34:27.033209][info][1914922][Pipeline.cpp:288] Try to start streams!
+[07/14 11:34:27.033279][debug][1914922][VideoSensor.cpp:566] VideoSensor::start, @OB_SENSOR_DEPTH
+[07/14 11:34:27.033297][debug][1914922][FrameMemoryPool.cpp:35] FrameMemoryPool created!
+[07/14 11:34:27.033605][debug][1914922][FrameBufferManager.hpp:65] FrameBufferManager created! frame type:N11libobsensor10DepthFrameE, obj addr:0x6000029ec000, frame obj total size:0.704MB
+[07/14 11:34:27.033623][debug][1914922][FrameMemoryPool.cpp:59] DepthFrame bufferManager created!
+[07/14 11:34:27.033638][debug][1914922][FrameProcessor.cpp:136] Frame processor active blocks chain update: input -> output
+[07/14 11:34:27.033649][debug][1914922][FrameProcessor.cpp:147] FrameProcessor started, 6 blocks contained!
+[07/14 11:34:27.033668][info][1914922][VideoSensor.cpp:646] start OB_SENSOR_DEPTH stream with profile: {type: OB_STREAM_DEPTH, format: OB_FORMAT_Y16, width: 640, height: 576, fps: 30}, Backend Format: OB_FORMAT_Y16
+[07/14 11:34:27.033689][info][1914922][MSDEConverterDevice.cpp:549] Start real profile,width:7680 height:434
+[07/14 11:34:27.033705][debug][1914922][ObLibuvcDevicePort.cpp:75] ObLibuvcDevicePort::startStream()...
+[07/14 11:34:27.033772][debug][1914922][ObLibuvcDevicePort.cpp:90] playProfile: infIndex=2, selected_format.width=7680, height=434, format=OB_FORMAT_Y16
+[07/14 11:34:27.039149][debug][1914922][ObLibuvcDevicePort.cpp:143] ObLibuvcDevicePort::startStream() done
+[07/14 11:34:27.039350][debug][1914922][FrameBufferManager.hpp:65] FrameBufferManager created! frame type:N11libobsensor13RawPhaseFrameE, obj addr:0x6000029e0480, frame obj total size:6.358MB
+[07/14 11:34:27.039373][debug][1914922][FrameMemoryPool.cpp:95] RawPhaseFrame bufferManager created!
+[07/14 11:34:27.039406][debug][1914922][FemtoBoltUvcDevice.cpp:519] Depth sensor update FrameSoftFilter: maxdiff:300, maxSpeckleSize:25!
+[07/14 11:34:27.039426][debug][1914922][FrameProcessor.cpp:136] Frame processor active blocks chain update: input ->FrameSoftFilter -> output
+[07/14 11:34:27.039720][debug][1914922][VideoSensor.cpp:672] Stream state changed to STREAM_STATE_STARTING. @OB_SENSOR_DEPTH
+[07/14 11:34:27.039737][debug][1914922][VideoSensor.cpp:674] Stream starting! @OB_SENSOR_DEPTH
+[07/14 11:34:27.039751][debug][1914922][Pipeline.cpp:299] Sensor stream started, sensorType=OB_SENSOR_DEPTH
+[07/14 11:34:27.039761][info][1914922][Pipeline.cpp:301] Start streams done!
+[07/14 11:34:27.039785][info][1914922][Pipeline.cpp:277] Pipeline start done!
+[07/14 11:34:27.398706][debug][1914964][FrameBufferManager.cpp:35] New frame buffer allocated=6.358MB, total usage: allocated=6.358MB, max limit=2048.000MB
+[07/14 11:34:27.402743][warning][1914922][Pipeline.cpp:377] Wait for frame timeout, you can try to increase the wait time! current timeout=200
+[07/14 11:34:30.035563][debug][1914963][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[07/14 11:34:30.496398][warning][1914922][Pipeline.cpp:377] Wait for frame timeout, you can try to increase the wait time! current timeout=200 [**13 logs in 3093ms**]
+[07/14 11:34:33.039210][debug][1914963][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[07/14 11:34:34.683599][debug][1914960][VendorCommand.cpp:429] get TimeStamp: tsp=451274, rtt=0
+[07/14 11:34:34.683657][debug][1914960][GlobalTimestampFitter.cpp:143] GlobalTimestampFitter update: coefficientA = 1000.0161488029888, constantB = 1720981623402037
+[07/14 11:34:36.042017][debug][1914963][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[07/14 11:34:36.655428][warning][1914922][Pipeline.cpp:377] Wait for frame timeout, you can try to increase the wait time! current timeout=200 [**26 logs in 6159ms**]
+[07/14 11:34:39.046834][debug][1914963][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[07/14 11:34:42.052361][debug][1914963][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[07/14 11:34:42.688672][debug][1914960][VendorCommand.cpp:429] get TimeStamp: tsp=459280, rtt=0
+[07/14 11:34:42.688720][debug][1914960][GlobalTimestampFitter.cpp:143] GlobalTimestampFitter update: coefficientA = 999.9625170094532, constantB = 1720981623425863.2
+[07/14 11:34:45.058753][debug][1914963][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[07/14 11:34:48.064479][debug][1914963][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[07/14 11:34:48.732519][warning][1914922][Pipeline.cpp:377] Wait for frame timeout, you can try to increase the wait time! current timeout=200 [**51 logs in 12077ms**]
+[07/14 11:34:50.693937][debug][1914960][VendorCommand.cpp:429] get TimeStamp: tsp=467285, rtt=0
+[07/14 11:34:50.693976][debug][1914960][GlobalTimestampFitter.cpp:143] GlobalTimestampFitter update: coefficientA = 999.9705473920399, constantB = 1720981623422291
+[07/14 11:34:51.065845][debug][1914963][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[07/14 11:34:54.071409][debug][1914963][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[07/14 11:34:57.077116][debug][1914963][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24
+[07/14 11:34:58.695438][debug][1914960][VendorCommand.cpp:429] get TimeStamp: tsp=475287, rtt=0
+[07/14 11:34:58.695531][debug][1914960][GlobalTimestampFitter.cpp:143] GlobalTimestampFitter update: coefficientA = 999.9645228533211, constantB = 1720981623425015.2
+[07/14 11:35:00.082890][debug][1914963][PropertyAccessor.cpp:50] get firmware data success! propertyId: 1003, dataLen: 24

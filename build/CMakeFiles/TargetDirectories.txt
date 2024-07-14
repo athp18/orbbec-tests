@@ -1,0 +1,7 @@
+/Users/atharvp04/OrbbecSDK/examples/cpp/OrbbecTesting/build/CMakeFiles/OBViewer.dir
+/Users/atharvp04/OrbbecSDK/examples/cpp/OrbbecTesting/build/CMakeFiles/edit_cache.dir
+/Users/atharvp04/OrbbecSDK/examples/cpp/OrbbecTesting/build/CMakeFiles/rebuild_cache.dir
+/Users/atharvp04/OrbbecSDK/examples/cpp/OrbbecTesting/build/CMakeFiles/list_install_components.dir
+/Users/atharvp04/OrbbecSDK/examples/cpp/OrbbecTesting/build/CMakeFiles/install.dir
+/Users/atharvp04/OrbbecSDK/examples/cpp/OrbbecTesting/build/CMakeFiles/install/local.dir
+/Users/atharvp04/OrbbecSDK/examples/cpp/OrbbecTesting/build/CMakeFiles/install/strip.dir
