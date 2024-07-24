@@ -1,4 +1,3 @@
-
 import os
 import cv2
 import time
@@ -380,48 +379,3 @@ def start_recording(
         if display_frames:
             display_queue.put(tuple())
             display_process.join()
-
-        
-
-def main():
-    parser = argparse.ArgumentParser(description="Record depth and IR data from an Orbbec camera.")
-    parser.add_argument("--SUBJECTNAME", required=True, help="Name of the subject")
-    parser.add_argument("--SESSIONNAME", required=True, help="Name of the session")
-    parser.add_argument("--DIRECTORY", required=True, help="Base directory for saving recordings.")
-    parser.add_argument("--RECORDING_LENGTH", type=float, default=20, required=False, help="Recording length in minutes (default: 20)")
-    parser.add_argument("--SAVE_IR", type=bool, default=True, help="Whether to save IR data (default: True)")
-    parser.add_argument("--PREVIEW", type=bool, default=True, help="Whether to show preview (default: True)")
-
-    args = parser.parse_args()
-    if args.SUBJECTNAME == "help":
-        parser.print_help()
-        return
-
-    base_dir = args.DIRECTORY
-    subject_name = args.SUBJECTNAME
-    session_name = args.SESSIONNAME
-    save_ir = args.SAVE_IR
-    recording_length = args.RECORDING_LENGTH * 60  # Convert minutes to seconds
-    preview = args.PREVIEW
-    display_time = True
-    depth_height_threshold = 150
-
-    print("Start recording...")
-    print(f"Subject: {args.SUBJECTNAME}, Session: {args.SESSIONNAME}, Directory: {args.DIRECTORY}")
-    print(f"Recording Length: {args.RECORDING_LENGTH} minutes, Save IR?: {args.SAVE_IR}, Preview?: {args.PREVIEW}")
-    print("If any of the arguments seem incorrect, please press Ctrl+C")
-    
-
-    start_recording(
-        base_dir=base_dir,
-        subject_name=subject_name,
-        session_name=session_name,
-        recording_length=recording_length,
-        save_ir=save_ir,
-        display_frames=preview,
-        display_time=display_time,
-        depth_height_threshold=depth_height_threshold,
-    )
-
-if __name__ == '__main__':
-    main()
