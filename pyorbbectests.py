@@ -8,6 +8,9 @@ import numpy as np
 from datetime import datetime
 from multiprocessing import Process, Queue
 from pyorbbecsdk import *
+import argparse
+import tkinter
+from tkinter import messagebox
 
 
 def display_images(display_queue: Queue, depth_height_threshold: int):
@@ -242,6 +245,7 @@ def start_recording(
     filename_prefix = os.path.join(
         base_dir, subject_name + "_" + session_name + "_" + datetime.now().strftime("%Y%m%d%H%M%S")
     )
+    filename_prefix = os.path.expanduser(filename_prefix)
     os.makedirs(filename_prefix, exist_ok=True)
 
     # write recording metadata
@@ -358,6 +362,7 @@ def start_recording(
 
         fps = len(system_timestamps) / (max(system_timestamps) - min(system_timestamps))
         print(f" - Session average frame rate = {fps:0.2f} fps")
+        messagebox.showinfo("showinfo", f"The recordings and information has been saved at {filename_prefix}.")
         image_queue.put(tuple())
         write_process.join()
 
@@ -366,14 +371,24 @@ def start_recording(
             display_process.join()
 
         
+
 def main():
-    base_dir = "../recordings"
-    subject_name = input("Print the subject name:")
-    session_name = input("Print the session name:")
-    save_ir = True 
-    recording_length = float(input("Enter the recording length"))
-    recording_length *= 60
-    preview = True
+    parser = argparse.ArgumentParser(description="Record depth and IR data from an Orbbec camera.")
+    parser.add_argument("--SUBJECTNAME", required=True, help="Name of the subject")
+    parser.add_argument("--SESSIONNAME", required=True, help="Name of the session")
+    parser.add_argument("--DIRECTORY", required=True, help="Base directory for saving recordings")
+    parser.add_argument("--RECORDING_LENGTH", type=float, required=True, help="Recording length in minutes")
+    parser.add_argument("--SAVE_IR", type=bool, default=True, help="Whether to save IR data (default: True)")
+    parser.add_argument("--PREVIEW", type=bool, default=True, help="Whether to show preview (default: True)")
+
+    args = parser.parse_args()
+
+    base_dir = args.DIRECTORY
+    subject_name = args.SUBJECTNAME
+    session_name = args.SESSIONNAME
+    save_ir = args.SAVE_IR
+    recording_length = args.RECORDING_LENGTH * 60  # Convert minutes to seconds
+    preview = args.PREVIEW
     display_time = True
     depth_height_threshold = 200
 
