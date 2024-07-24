@@ -281,7 +281,7 @@ def start_recording(
 
     # set up ir stream
     profile_list = pipeline.get_stream_profile_list(OBSensorType.IR_SENSOR)
-    ir_profile = profile_list.get_video_stream_profile(640, 0, OBFormat.Y16, 30)
+    ir_profile = profile_list.get_video_stream_profile(640, 0, OBFormat.Y16, 30) # important: SET THE FPS
     config.enable_stream(ir_profile)
 
     # start the camera
@@ -333,16 +333,27 @@ def start_recording(
             image_queue.put((ir_data, depth_data))
             if display_frames and count % 2 == 0:
                 display_queue.put((ir_data, depth_data))
+            
+            fps_0 = None
 
             if display_time and count > 0 and (count % PRINT_INTERVAL) == 0:
                 fps = len(system_timestamps) / (
                     max(system_timestamps) - min(system_timestamps)
                 )
+
+                if count == 1:
+                    fps_0 = fps
+                    if fps_0 is not None:
+                        print(f" - The initial frame rate is {fps_0:0.2f}", end="")
                 print(
                     f"\rRecorded {int(time.time() - start_time):02d} of {recording_length} seconds",
                     end="",
                 )
                 print(f" - Current frame rate {fps:0.2f} fps", end="")
+                if fps < 29.5:
+                    print("WARNING: LOW FRAME RATE")
+                elif fps_0 is not None and fps < fps_0 * 0.9:
+                    print("WARNING: FRAME RATE FLUCTUATION")
             count += 1
     except OSError:
         print("Recording stopped early")
@@ -362,7 +373,7 @@ def start_recording(
 
         fps = len(system_timestamps) / (max(system_timestamps) - min(system_timestamps))
         print(f" - Session average frame rate = {fps:0.2f} fps")
-        messagebox.showinfo("showinfo", f"The recordings and information has been saved at {filename_prefix}.")
+        messagebox.showinfo("showinfo", f"The recordings and information has been saved at {filename_prefix}")
         image_queue.put(tuple())
         write_process.join()
 
@@ -376,12 +387,15 @@ def main():
     parser = argparse.ArgumentParser(description="Record depth and IR data from an Orbbec camera.")
     parser.add_argument("--SUBJECTNAME", required=True, help="Name of the subject")
     parser.add_argument("--SESSIONNAME", required=True, help="Name of the session")
-    parser.add_argument("--DIRECTORY", required=True, help="Base directory for saving recordings")
-    parser.add_argument("--RECORDING_LENGTH", type=float, required=True, help="Recording length in minutes")
+    parser.add_argument("--DIRECTORY", required=True, help="Base directory for saving recordings.")
+    parser.add_argument("--RECORDING_LENGTH", type=float, default=20, required=False, help="Recording length in minutes (default: 20)")
     parser.add_argument("--SAVE_IR", type=bool, default=True, help="Whether to save IR data (default: True)")
     parser.add_argument("--PREVIEW", type=bool, default=True, help="Whether to show preview (default: True)")
 
     args = parser.parse_args()
+    if args.SUBJECTNAME == "help":
+        parser.print_help()
+        return
 
     base_dir = args.DIRECTORY
     subject_name = args.SUBJECTNAME
@@ -390,7 +404,13 @@ def main():
     recording_length = args.RECORDING_LENGTH * 60  # Convert minutes to seconds
     preview = args.PREVIEW
     display_time = True
-    depth_height_threshold = 200
+    depth_height_threshold = 150
+
+    print("Start recording...")
+    print(f"Subject: {args.SUBJECTNAME}, Session: {args.SESSIONNAME}, Directory: {args.DIRECTORY}")
+    print(f"Recording Length: {args.RECORDING_LENGTH} minutes, Save IR?: {args.SAVE_IR}, Preview?: {args.PREVIEW}")
+    print("If any of the arguments seem incorrect, please press Ctrl+C")
+    
 
     start_recording(
         base_dir=base_dir,
