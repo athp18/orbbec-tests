@@ -12,7 +12,7 @@ class CameraRecordingGUI:
         self.window.title('Camera Recording')
         self.window.geometry('500x400')
 
-        icon_path = "/home/llorentelab/icon.png"  # Replace with the path to your .ico file
+        icon_path = "/home/llorentelab/icon.png"  
         icon = Image.open(icon_path)
         icon = ImageTk.PhotoImage(icon)
         self.window.iconphoto(True, icon)
@@ -28,7 +28,7 @@ class CameraRecordingGUI:
         main_frame.pack(fill=BOTH, expand=YES)
 
         # Title
-        title_label = ttk.Label(main_frame, text="Camera Recording Setup", font=('Clam', 18, 'bold'))
+        title_label = ttk.Label(main_frame, text="Depth Data Acquisition", font=('Clam', 18, 'bold'))
         title_label.pack(pady=(0, 20))
 
         # Subject Name
